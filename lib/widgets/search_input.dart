@@ -4,9 +4,11 @@ class SearchInput extends StatelessWidget {
   const SearchInput({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
+    // final double width = MediaQuery.of(context).size.width;
+    // final widthSearchBar = width*0.1;
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 50.0 , vertical: 5 ),
-      width: double.infinity,
+      margin: const EdgeInsets.symmetric(horizontal: 30.0 , vertical: 5 ),
+      width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
         color: Colors.white,
           border: Border.all(color: Colors.white12),
@@ -16,23 +18,19 @@ class SearchInput extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: const [
-          Padding(
-            padding: EdgeInsets.only(top: 3),
-            child: Icon(
-              Icons.search,
-            ),
-          ),
           SizedBox(
-            width: 15,
+            width : 13,
           ),
           Expanded(
             child: TextField(
+              textAlign: TextAlign.center,
               decoration: InputDecoration(
                 border: InputBorder.none,
-                hintText: 'Search a doctor or health issue',
+                hintText: 'Search for a doctor',
                 hintStyle: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w700
+                    fontSize: 15,
+                    fontWeight: FontWeight.w600,
+                    
                 ),
                   disabledBorder:InputBorder.none,
                   enabledBorder: InputBorder.none,

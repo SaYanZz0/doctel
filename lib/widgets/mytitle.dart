@@ -11,8 +11,15 @@ class MyTitle extends StatelessWidget {
   final double fontsize;
 
   @override
-  Widget build(BuildContext context) =>
-      Text(title, style: TextStyle(fontSize: fontsize,
+  Widget build(BuildContext context) {
+    return
+    Padding(
+      padding:EdgeInsets.only(top: 8.0,bottom: 8),
+    child :Text(
+      title, style: TextStyle(fontSize: fontsize,
           fontWeight: FontWeight.bold,
-          color: Colors.black),);
+          color: Colors.black)
+          )
+          );
+}
 }

@@ -67,21 +67,22 @@ flutter:
     - assets/images/specialist.png
     - assets/images/stethoscope.png
     - assets/images/LocationLogo.png
-    - assets/images/doc1.jpg
-    - assets/images/doc2.jpg
-    - assets/images/doc3.jpg
-    - assets/images/doc4.jpg
-    - assets/images/doc5.jpg
-    - assets/images/doc6.jpg
-    - assets/images/doc7.jpg
-    - assets/images/doc8.jpg
-    - assets/images/doc9.jpg
-    - assets/images/doc10.png
-    - assets/images/doc11.jpg
+    # - assets/images/doc.png
+    # - assets/images/doc2.jpg
+    - assets/images/doc3.png
+    - assets/images/doc4.png
+    - assets/images/doc5.png
+    - assets/images/doc6.png
+    - assets/images/doc7.png
+    - assets/images/doc8.png
+    - assets/images/doc9.png
+    # - assets/images/doc10.jpg
+    - assets/images/doc11.png
     - assets/images/accueil.png
     - assets/images/profil-de-lutilisateur.png
     - assets/images/rendez-vous.png
-    - assets/images/doc13.png
+    - assets/images/PenModofier.png
+    - assets/images/DocFinal.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
